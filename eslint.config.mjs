@@ -47,6 +47,12 @@ export default [{
         "react-hooks": fixupPluginRules(reactHooks),
     },
 
+    settings: {
+        react: {
+            version: "detect", 
+        },
+    },
+
     languageOptions: {
         globals: {
             ...globals.node,
